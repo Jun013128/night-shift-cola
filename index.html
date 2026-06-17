@@ -4,34 +4,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NIGHT SHIFT COLA | 一日の終わりに、余白をつくる。</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <section class="section-fv">
     <h1>
-      <img src="images/mv.jpg" alt="NIGHT SHIFT COLAのファーストビュー" width="780" height="950">
+      <img src="images/mv.jpg" alt="1日の終わりに余白をつくる。夜に飲みやすいクラフトコーラ" width="780" height="950">
     </h1>
     <div class="cta">
-      <p>\ お1人様一回限り /<span>初回限定</span></p>
+      <p><span class="text-slash">お1人様一回限り</span><span>初回限定</span></p>
       <p>お試し価格</p>
       <p>通常価格 3,640円</p>
-      <p>通常より2,160円OFF</p>
+      <!-- <p>通常より2,160円OFF</p> -->
+      <img src="images/cta_off.svg" alt="" width="66" height="65">
       <p><span>1,480</span>円<span>（税込・送料込み）</span></p>
       <p>2030年3月31日まで</p>
-      <a href="#">今すぐ試してみる ＞</a>
+      <a href="#">今すぐ試してみる<i class="fa-solid fa-chevron-right"></i></a>
     </div>
   </section>
   <main>
-    <section class="section section-tonight">
-      <h2 class="section-tonight__heading" data-en="TONIGHT">こんな夜、ありませんか？</h2>
+    <section class="section tonight">
+      <h2 class="section__heading" data-en="TONIGHT">こんな夜、ありませんか？</h2>
       <img src="images/tonight.jpg" alt="PCの前でぐったりしている男性" width="640" height="426">
-      <p>休肝日を作りたいけれど、布団に入っても目が冴えてしまう…</p>
-      <p>水やお茶じゃ物足りない、大人が満足できる飲み応えが欲しい…</p>
-      <p>お酒の力を借りずに、仕事終わりの脳をゆったり休ませたい…</p>
+      <ul>
+        <li>休肝日を作りたいけれど、布団に入っても目が冴えてしまう…</li>
+        <li>水やお茶じゃ物足りない、大人が満足できる飲み応えが欲しい…</li>
+        <li>お酒の力を借りずに、仕事終わりの脳をゆったり休ませたい…</li>
+      </ul>
     </section>
     
-    <section class="section section-concept">
-      <h2 class="section-concept__heading" data-en="CONCEPT">お酒を飲まない夜にも<br>確かな満足感を</h2>
+    <section class="section concept">
+      <h2 class="section__heading" data-en="CONCEPT">お酒を飲まない夜にも<br>確かな満足感を</h2>
       <div>
         <img src="images/night_shift_cola.png" alt="NIGHT SHIFT COLAのボトル" width="640" height="426">
         <p class="section-concept__title" data-kana="クラフトコーラシロップ">NIGHT SHIFT COLA</p>
@@ -39,19 +43,19 @@
       <ul>
         <li>
           <div>
-            <img src="images/seedling-solid-full.svg" alt="葉っぱ" width="640" height="640">
+            <i class="fa-solid fa-seedling"></i>
           </div>
           <p>綾町産<br>生姜使用</p>
         </li>
         <li>
           <div>
-            <img src="images/glass-water-droplet-solid-full.svg" alt="容量" width="640" height="640">
+            <i class="fa-solid fa-glass-water-droplet"></i>
           </div>
           <p>容量<br>250ml</p>
         </li>
         <li>
           <div>
-            <img src="images/glass-water-solid-full.svg" alt="コップ" width="640" height="640">
+            <i class="fa-solid fa-glass-water"></i>
           </div>
           <p>杯数<br>約12杯分</p>
         </li>
@@ -64,7 +68,7 @@
 
     </div>
 
-    <section class="section section-drink">
+    <section class="section drink">
       <h2 class="section__heading" data-en="DRINK">おすすめの飲み方</h2>
       <ul>
         <li>
@@ -91,23 +95,16 @@
       </ul>
     </section>
 
-    <section class="section section-reviews"> 
+    <section class="section reviews"> 
       <h2 class="section__heading" data-en="REVIEWS">お客様の声</h2>
       <img src="images/reviews.svg" alt="レビュー表" width="334" height="156">
       <ul>
         <li>
           <div>
-            <img src="images/user-solid-full.svg" alt="ユーザー" width="640" height="640">
+            <i class="fa-solid fa-user"></i>
           </div>
           <div>
-            <p>Tさん（38歳・男性・会社員）</p>
-            <div>
-              <img src="images/star-solid-full.svg" alt="星" width="640" height="640">
-              <img src="images/star-solid-full.svg" alt="星" width="640" height="640">
-              <img src="images/star-solid-full.svg" alt="星" width="640" height="640">
-              <img src="images/star-solid-full.svg" alt="星" width="640" height="640">
-              <img src="images/star-solid-full.svg" alt="星" width="640" height="640">
-            </div>
+            <p>Tさん（38歳・男性・会社員）<span class="rate"></span></p>
           </div>
           <div>
             <p>「仕事終わりにビールを飲むことが多かったのですが、平日は少し控えたいと思って購入しました。炭酸で割ると満足感があって、甘すぎないのがいいです。夜に飲むものとしてちょうどいいです。」</p>
@@ -115,17 +112,10 @@
         </li>
         <li>
           <div>
-            <img src="images/user-solid-full.svg" alt="ユーザー" width="640" height="640">
+            <i class="fa-solid fa-user"></i>
           </div>
           <div>
-            <p>Kさん（42歳・男性・営業職）</p>
-            <div>
-              <img src="images/star-solid-full.svg" alt="星" width="640" height="640">
-              <img src="images/star-solid-full.svg" alt="星" width="640" height="640">
-              <img src="images/star-solid-full.svg" alt="星" width="640" height="640">
-              <img src="images/star-solid-full.svg" alt="星" width="640" height="640">
-              <img src="images/star-solid-full.svg" alt="星" width="640" height="640">
-            </div>
+            <p>Kさん（42歳・男性・営業職）<span class="rate"></span></p>
           </div>
           <div>
             <p>「帰宅してからもスマホで仕事の連絡を見てしまうことが多く、なんとなく夜の時間がだらだら過ぎていました。これを炭酸で割って飲む時間を作ると、一日の区切りになる感じがして気に入っています。」</p>
@@ -133,17 +123,10 @@
         </li>
         <li>
           <div>
-            <img src="images/user-solid-full.svg" alt="ユーザー" width="640" height="640">
+            <i class="fa-solid fa-user"></i>
           </div>
           <div>
-            <p>Aさん（45歳・男性・管理職）</p>
-            <div>
-              <img src="images/star-solid-full.svg" alt="星" width="640" height="640">
-              <img src="images/star-solid-full.svg" alt="星" width="640" height="640">
-              <img src="images/star-solid-full.svg" alt="星" width="640" height="640">
-              <img src="images/star-solid-full.svg" alt="星" width="640" height="640">
-              <img src="images/star-solid-full.svg" alt="星" width="640" height="640">
-            </div>
+            <p>Aさん（45歳・男性・管理職）<span class="rate"></span></p>
           </div>
           <div>
             <p>「毎晩ビールを飲む習慣を少し減らしたくて購入しました。炭酸水で濃いめに割ると、かなり満足感があります。お酒を飲まない日の一杯としてちょうどいいです。」</p>
@@ -153,20 +136,173 @@
       <small>※個人の感想です。</small>
     </section>
 
-    <section class="MEDIA">
+    <section class="section media">
       <h2 class="section__heading" data-en="MEDIA">テレビやメディアでも<br>紹介されました</h2>
+      <ul>
+        <li>
+          <i class="fa-solid fa-tower-broadcast"></i>
+          <p>MRT宮崎放送</p>
+        </li>
+        <li>
+          <i class="fa-solid fa-tv"></i>
+          <p>UMKテレビ宮崎</p>
+        </li>
+        <li>
+          <i class="fa-solid fa-newspaper"></i>
+          <p>宮崎日日新聞</p>
+        </li>
+        <li>
+          <i class="fa-solid fa-mobile-screen"></i>
+          <p>ライフスタイルWebメディア<br><span class="">「ノンアルコールドリンク特集」</span></p>
+        </li>
+      </ul>
     </section>
 
-    <section class="CAMPAIGN">
-      <h2 class="section__heading">はじめての夜に<br><span>クラフトコーラキャンペーン</span></h2>
+    <section class="section campaign">
+      <h2 class="section__heading">はじめての夜に<br><span class="">クラフトコーラキャンペーン</span></h2>
+      <div>
+        <img src="images/night_shift_cola.png" alt="NIGHT SHIFT COLAのボトル" width="640" height="426">
+        <p class="section-concept__title" data-kana="クラフトコーラシロップ">NIGHT SHIFT COLA</p>
+      </div>
+      <ul>
+        <li>
+          <div>
+            <i class="fa-solid fa-seedling"></i>
+          </div>
+          <p>綾町産<br>生姜使用</p>
+        </li>
+        <li>
+          <div>
+            <i class="fa-solid fa-glass-water-droplet"></i>
+          </div>
+          <p>容量<br>250ml</p>
+        </li>
+        <li>
+          <div>
+            <i class="fa-solid fa-glass-water"></i>
+          </div>
+          <p>杯数<br>約12杯分</p>
+        </li>
+      </ul>
+      <div class="cta">
+
+      </div>
     </section>
 
-    <section class="FAQ">
+    <section class="section faq">
       <h2 class="section__heading" data-en="FAQ">よくあるご質問</h2>
+      <ul>
+        <li>
+          <div>
+            <span>Q</span>
+            <p>普通のコーラとどう違いますか？</p>
+          </div>
+          <div>
+            <span>A</span>
+            <p>甘さ控えめで、生姜やスパイスの香りが特徴のクラフトコーラシロップです。希釈して飲むタイプで、一般的な缶コーラとは異なります。</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span>Q</span>
+            <p>カフェインは入っていますか？</p>
+          </div>
+          <div>
+            <span>A</span>
+            <p>入っていません。夜に飲むことを想定し、ノンカフェインで設計しています。</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span>Q</span>
+            <p>スパイスは強すぎますか？</p>
+          </div>
+          <div>
+            <span>A</span>
+            <p>クラフトコーラが初めての方には、やや個性的に感じる場合があります。薄めに割るとマイルドになります。</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span>Q</span>
+            <p>おすすめの飲み方はありますか？</p>
+          </div>
+          <div>
+            <span>A</span>
+            <p>1日1杯を目安に、お好みに合わせてお召し上がりください。 シロップ20mlに対して、炭酸水120〜150ml程度で割るのがおすすめです。</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span>Q</span>
+            <p>賞味期限・保存方法は？</p>
+          </div>
+          <div>
+            <span>A</span>
+            <p>未開封時の賞味期限は製造日より6ヶ月です。直射日光・高温多湿を避け、常温で保存してください。開封後は必ず冷蔵庫で保存し、3〜4週間以内を目安にお召し上がりください。</p>
+          </div>
+        </li>
+      </ul>
     </section>
     
-    <section class="GUIDE">
+    <section class="section guide">
       <h2 class="section__heading" data-en="GUIDE">保存方法・発送について</h2>
+      <ul>
+        <li>
+          <div>
+            <div>
+              <i class="fa-solid fa-box-archive"></i>
+            </div>
+            <p>保存方法</p>
+          </div>
+          <p>製造日より6ヶ月（※未開封で、表示された保存方法により保存した場合）直射日光・高温多湿を避け、常温で保存してください。</p>
+        </li>
+        <li>
+          <div>
+            <div>
+              <i class="fa-solid fa-box-open"></i>
+            </div>
+            <p>開封後</p>
+          </div>
+          <p>開封後は必ず冷蔵庫で保存し、3〜4週間以内を目安にできるだけお早めにお召し上がりください。</p>
+        </li>
+        <li>
+          <div>
+            <div>
+              <i class="fa-solid fa-vial"></i>
+            </div>
+            <p>沈殿について</p>
+          </div>
+          <p>原材料由来の成分が沈殿することがありますが、品質には問題ありません。よく振ってからお使いください。</p>
+        </li>
+        <li>
+          <div>
+            <div>
+              <i class="fa-solid fa-truck"></i>
+            </div>
+            <p>発送時期</p>
+          </div>
+          <p>ご注文確認後、通常3〜5営業日以内に発送いたします。</p>
+        </li>
+        <li>
+          <div>
+            <div>
+              <i class="fa-solid fa-calendar-xmark"></i>
+            </div>
+            <p>土日祝・休業日</p>
+          </div>
+          <p>翌営業日以降に順次ご対応・発送させていただきます。</p>
+        </li>
+        <li>
+          <div>
+            <div>
+              <i class="fa-solid fa-clock"></i>
+            </div>
+            <p>お届けまでの日数</p>
+          </div>
+          <p>天候や交通状況により、お届けまでにお時間をいただく場合がございます。発送完了時にお送りする追跡番号よりご確認ください。</p>
+        </li>
+      </ul>
     </section>
 
     <div class="cta">
@@ -174,7 +310,8 @@
     </div>
   </main>
   <footer>
-
+    <small>※本商品は一般食品であり、機能性表示食品や医薬品ではありません。GABA、L-テアニンは配合成分としての事実のみを記載しており、睡眠の質改善などの効果・効能を保証するものではありません。</small>
+    <small>&copy;2026 やさしさ農園.</small>
   </footer>
 </body>
 </html>
